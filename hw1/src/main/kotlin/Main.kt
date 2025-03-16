@@ -1,5 +1,3 @@
-package task1
-
 fun Array<Int>.oddCubesSum(): Int {
     return this.filter { it % 2 == 1 }.sumOf { it * it * it }
 }
