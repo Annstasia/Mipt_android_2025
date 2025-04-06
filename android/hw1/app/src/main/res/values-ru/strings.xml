@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Звездный кликер абракадабраааааааааааа</string>
+    <string name="view_stats">Перейти к статистике</string>
+    <string name="total_clicks">Кликов: %1$d</string>
+    <string name="stats_format">Сегодня: %1$d\n\nЗа неделю: %2$d\n\n%4$s: %3$d\n\nЗа год: %5$d</string>
+    <string name="clicks_to_next_level">Осталось кликов до следующего уровня: %1$d</string>
+    <string name="theme">Тема</string>
+    <string name="light_theme">Светлая тема</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="system_default">Как в системе</string>
+    <string name="language">Язык</string>
+    <string name="help">Помощь</string>
+    <string name="exit">Выход</string>
+    <string name="stats" translatable="false">Статистика</string>
+</resources>
