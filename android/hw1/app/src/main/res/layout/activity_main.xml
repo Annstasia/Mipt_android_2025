@@ -1,0 +1,92 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingTop="2dp"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:circularflow_angles="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/help_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/help_button" />
+
+    <ImageButton
+        android:id="@+id/exit_button"
+        android:layout_width="64dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/exit"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="@+id/help_button"
+        app:layout_constraintTop_toBottomOf="@+id/help_button" />
+
+    <ImageButton
+        android:id="@+id/help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/help"
+        android:src="@drawable/help_40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/click_image"
+        android:layout_width="407dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/cardio_1"
+        android:contentDescription="@string/click_here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_text" />
+
+    <Button
+        android:id="@+id/stats_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/view_stats"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/clicks_to_next_level_text"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/clicks_to_next_level_text" />
+
+    <TextView
+        android:id="@+id/click_count_text"
+        android:layout_width="318dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/title_text"
+        app:layout_constraintTop_toBottomOf="@+id/click_image" />
+
+    <TextView
+        android:id="@+id/clicks_to_next_level_text"
+        android:layout_width="318dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toStartOf="@+id/click_count_text"
+        app:layout_constraintTop_toBottomOf="@+id/click_count_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Heartbeat abracadabaraaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="view_stats">View Stats</string>
+    <string name="total_clicks">Clicks: %1$d</string>
+    <string name="stats_format">Today: %1$d\n\nWeek: %2$d\n\n%4$s: %3$d\n\nYear: %5$d</string>
+    <string name="clicks_to_next_level">%1$d clicks to the next level</string>
+    <string name="theme">Theme</string>
+    <string name="light_theme">Light theme</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="system_default">System default</string>
+    <string name="english" translatable="false">English</string>
+    <string name="russian" translatable="false">Русский</string>
+    <string name="language">Language</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+    <string name="help_uri" translatable="false">https://t.me/stasenann</string>
+    <string name="stats" translatable="false">Statistics</string>
+    <string name="click_here" translatable="false">click here</string>
+    <string name="initial_clicks" translatable="false">Clicks: 0</string>
+</resources>
