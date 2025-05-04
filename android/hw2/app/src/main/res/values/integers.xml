@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_task_id">0</integer>
+    <integer name="ad_duration_millis">10000</integer>
+    <integer name="ad_interval_millis">60000</integer>
+</resources>

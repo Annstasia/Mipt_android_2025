@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main_graph"
+    app:startDestination="@id/allTasksFragment">
+    <fragment
+        android:id="@+id/allTasksFragment"
+        android:name="ru.mipt.annstase.hw2.ui.tasks.AllTasksFragment"
+        tools:layout="@layout/fragment_all_tasks" />
+
+    <fragment
+        android:id="@+id/currentTasksFragment"
+        android:name="ru.mipt.annstase.hw2.ui.tasks.CurrentTasksFragment"
+        tools:layout="@layout/fragment_current_tasks" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mipt.annstase.hw2.ui.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

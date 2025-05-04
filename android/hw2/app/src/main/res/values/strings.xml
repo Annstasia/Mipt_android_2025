@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Планировщик задач</string>
+    <string name="all_tasks">Все задачи</string>
+    <string name="settings">Настройки</string>
+    <string name="add_task">Добавить задачу</string>
+
+    <string name="title">Заголовок</string>
+    <string name="description">Описание</string>
+    <string name="urgency">Коэффициент срочности</string>
+    <string name="tags">Теги, через запятую</string>
+    <string name="select_deadline">Выбрать дату</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="back">Назад</string>
+    <string name="error_empty_title">Заголовок не может быть пустым</string>
+
+    <string name="no_tasks">Задач нет</string>
+    <string name="advertisement">Реклама</string>
+    <string name="about_app">О приложении: Планировщик задач</string>
+    <string name="close">Закрыть</string>
+
+    <string name="all_tasks_tab">Все</string>
+    <string name="current_tasks_tab">Текущие</string>
+    <string name="settings_tab">Настройки</string>
+
+    <string name="tasks_today">Задачи на сегодня</string>
+    <string name="tasks_tomorrow">Задачи на завтра</string>
+    <string name="done">Сделанные</string>
+    <string name="planned">Планируемые</string>
+    <string name="freedom">Добби свободен</string>
+    <string name="app_description">Планировщик задач.
+    Тут должен быть текст, но автор устал
+    </string>
+    <string name="today_tasks">Задачи на сегодня</string>
+    <string name="tomorrow_tasks">Задачи на завтра</string>
+    <string name="enable_filters">Включить фильтры</string>
+    <string name="disable_ads">Отключить рекламу</string>
+    <string name="sort_by_urgency">Сортировать по срочности</string>
+    <string name="filter">фильтр</string>
+    <string name="tag">тэг</string>
+    <string name="task_title">42 (тут должно быть имя задачи)</string>
+</resources>
