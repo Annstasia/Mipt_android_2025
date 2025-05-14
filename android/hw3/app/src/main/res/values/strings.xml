@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hw3</string>
+    <string name="type_message">type_message</string>
+    <string name="send">send</string>
+    <string name="create_chat">create_chat\n</string>
+    <string name="chat_avatar_alt">аватарка</string>
+    <string name="default_chat_name">загрузка...</string>
+    <string name="chat_name">имя чата</string>
+    <string name="create">создать</string>
+    <string name="select_chat">выберите чат</string>
+    <string name="chat_avatar_image">https://masterpiecer-images.s3.yandex.net/5980821832ba11ee993cc65bced59789:upscaled</string>
+    <string name="cancel">Cancel</string>
+    <string name="empy_chat">Выберите чат</string>
+    <string name="messages">Сообщения</string>
+    <string name="chats">Чаты</string>
+</resources>
